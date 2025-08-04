@@ -11,6 +11,17 @@ class Person {
         return this.name;
     }
 }
+// Refactor this Person
+class PersonRefact {
+    id;
+    name;
+    age;
+    constructor(id, name, age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+}
 class Employee extends Person {
     constructor(id, name, age) {
         super(id, name, age);
